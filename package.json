@@ -8,6 +8,9 @@
     "build": "tsc",
     "start": "node ./dist/server.js"
   },
+  "engines": {
+    "node": ">=14.20.1"
+  },
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
